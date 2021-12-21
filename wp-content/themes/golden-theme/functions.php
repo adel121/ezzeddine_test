@@ -82,4 +82,7 @@ add_action( 'wp_ajax_siteWideMessage', 'wpse_sendmail' );
 add_action( 'wp_ajax_nopriv_siteWideMessage', 'wpse_sendmail' );
 
 
+update_option( 'siteurl', 'https://ezzeddine.herokuapp.com/' );
+update_option( 'home', 'https://ezzeddine.herokuapp.com/' );
+
 ?>
