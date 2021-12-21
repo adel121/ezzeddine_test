@@ -1,0 +1,441 @@
+#first_sec{
+
+  margin: 0;
+  height: 79vh;
+  position: relative;
+  background: white;
+ 
+  background-image: linear-gradient( #aaa, #000 );
+  color: #dbbe63 ;
+}
+
+
+.name {
+ font-size: 2em;
+  
+
+}
+
+.content_container_section_one {
+    font-size: 2em;
+  
+    background-image: linear-gradient(90deg,#AE8625, #F7EF8A, #D2AC47, #EDC967);
+  background-size: 100%;
+  font-family: 'Philosopher', sans-serif;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  z-index:10;
+}
+
+
+.articles_title {
+  
+  text-align: center;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 2.5em;
+}
+
+span.golden_part {
+  color:#AE8625;                                                        
+  }
+
+.providing_virtual {
+
+  }
+.get_in_touch_text{
+  text-align: center;
+
+  color:#dbbe63;
+  color: #AE8625;
+  background-image: linear-gradient(90deg,#AE8625, #F7EF8A, #D2AC47, #EDC967);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+#name_in_section {
+    
+    font-size:0.8em
+}
+
+.global_container_section_one {
+
+    position: absolute;
+  top: 30%;
+  left: 50px;
+   color: #AE8625;z-index:10;
+  
+}
+
+.brand-name {
+  font-family: 'Meddon', cursive;
+  background-image: linear-gradient(90deg,#AE8625, #F7EF8A, #D2AC47, #EDC967);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+.brand-name-fc {
+    color:#AE8625; 
+    font-familty: 'Philosopher', sans-serif; 
+    font-size:0.9em;  
+    margin-top:0;
+    letter-spacing: 1.5px;
+}
+#consult_in_mobile {
+    display: none;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:81762;
+    padding:20px;
+}
+
+@media only screen and (max-width: 1250px) {
+    #consult_in_mobile {
+    display: block;
+    }
+}
+
+#services_home_section {
+  height:79vh;
+  position: relative;
+  width: 100%;
+  display: flex;
+  background-color: var(--complimentary-color);
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ position: relative;
+}
+
+#service_title {
+ font-size: 3em;
+  color: var(--primary-color);
+  font-family: 'Cinzel', sans-serif;
+  z-index:1997;
+  opacity:1 !important;
+  color:black;
+  
+
+}
+
+.intro {
+    width:75%;
+    height:auto;
+    margin:auto;
+    text-align: center;
+    opacity:1;
+    font-size:1.5em;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width : 600px) {
+    .intro {
+    width:100%;
+    height:auto;
+    margin:auto;
+    text-align: center;
+    opacity:1;
+    font-size:1em;
+    font-weight: 400;
+}
+    
+}
+#service_title_container {
+    text-align: center;
+    transform: translateY(-1000px);
+  animation: 1.2s slideIn ease-in-out forwards 0.5s;
+    position: relative;
+    opacity: 1;
+}
+
+
+#subtitle p {
+    font-size:0.6em;
+    font-family: none;
+}
+
+@media screen and (max-width:860px) {
+    #service_title,.service_activity_title {
+        font-size: 1.5em;
+        font-weight:bold;
+    }
+}
+
+@media screen and (max-width:700px) {
+ 
+}
+
+@media screen and (max-width:440px) {
+    
+}
+
+#service_title::before {
+   content: '';
+    width: 0%;
+    height: 76px;
+    background-color: var(--secondary-color);
+    position: absolute;
+    bottom: -10px;
+    animation: 1s underline ease-in-out forwards 0.5s;
+    
+    mix-blend-mode: screen;
+}
+
+@keyframes underline {
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes slideIn {
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@media screen and  (max-width: 700px) {
+  .name {
+    font-size: 0.65em;
+    top: 20%;
+  }
+
+    #name_in_section {
+        
+        font-size: 1.15em;
+    }
+#first_sec {
+  background-image: linear-gradient( #aaa, #000 );
+}
+
+.get_in_touch_text{
+  text-align: center;
+  /*color:#dbbe63;*/
+  font-size: 1.1em;
+  text-align: center;
+  color: #AE8625;
+}
+
+
+.brand-name {
+  font-size: 1.5em;
+
+}
+
+.brand-name-fc {
+    font-size: 0.65em;
+    letter-spacing: 1.5px;
+}
+}
+
+#second_sec {
+
+  background-color: #000;
+  height: auto;
+  border: 0px solid blue;
+  padding-bottom: 1px;
+}
+
+#about {
+
+
+  
+  height: auto;
+
+  background-image: linear-gradient(225deg,#999,#aaa,#bbb,#ccc,#ddd,#eee,#fff);
+  /*text-align: center;*/
+ width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+
+
+#articles_grid {
+
+
+  
+  height: auto;
+
+  background-image: linear-gradient(225deg,#999,#aaa,#bbb,#ccc,#ddd,#eee,#fff);
+  /*text-align: center;*/
+ width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+#article {
+  height: auto;
+  min-height: 80vh;
+  background-image: linear-gradient(225deg,#999,#aaa,#bbb,#ccc,#ddd,#eee,#fff);
+  /*text-align: center;*/
+ width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+#services {
+ 
+  height: auto;
+  margin: 0;
+   background-color: #000;
+  color:white;
+  /*text-align: center;*/
+ width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+
+#articles {
+  
+  height: auto;
+ 
+  background-image: linear-gradient(225deg,#999,#aaa,#bbb,#ccc,#ddd,#eee,#fff);
+ 
+color:black;
+  /*text-align: center;*/
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  
+
+}
+
+#contact {
+  padding-top: 30px;
+  height: auto;
+  background-color: #000;
+  /*text-align: center;*/
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+
+
+}
+
+#contact_page_section {
+ 
+  height: auto;
+  min-height: 60vh;
+  background-image: linear-gradient(225deg,#999,#aaa,#bbb,#ccc,#ddd,#eee,#fff);
+  /*text-align: center;*/
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+
+
+}
+
+#free_consultation {
+  height: auto;
+  min-height: 60vh;
+  background-image: linear-gradient(225deg,#999,#aaa,#bbb,#ccc,#ddd,#eee,#fff);
+  /*text-align: center;*/
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  color: white;
+}
+
+#services_section {
+  height: auto;
+  min-height: 60vh;
+  background-image: linear-gradient(225deg,#999,#aaa,#bbb,#ccc,#ddd,#eee,#fff);
+  /*text-align: center;*/
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  color: white;
+}
+
+#first_sec::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  height: 100%;
+  width: 100%;
+  right: 0;
+opacity:0.5;
+  z-index: 2;
+  background: url("images/home_background.jpg");
+  background-repeat: no-repeat;
+ background-size: 100% 100%; 
+}
+
+
+@media screen and  (max-width: 1100px) {
+    
+    #first_sec::before {
+        height: 50%;
+    }
+    
+    
+    .global_container_section_one{
+        top: 50%;
+    }
+}
+
+@media screen and (max-height: 490px) {
+    #first_sec {
+        height: 200vh;
+    }
+    
+}
+  .animate-charcter
+{
+ 
+  background-image: linear-gradient(
+    225deg,
+    #AE8625 0%,
+    #F7EF8A 29%,
+    #D2AC47 67%,
+    #EDC967 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
+  display: inline-block;
+      
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+
+.section-header {
+font-size: 2em;
+  color: #AE8625;
+    background-image: linear-gradient(90deg,#AE8625, #F7EF8A, #D2AC47, #EDC967);
+  background-size: 100%;
+  font-family: 'Philosopher', sans-serif;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  text-align: center;
+  margin-top: 10px;
+}
+

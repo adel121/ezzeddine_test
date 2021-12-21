@@ -1,0 +1,171 @@
+#footer {
+
+    
+    margin: 0;
+    height: 450px;
+    background: #000;
+    position: relative;
+    background: white;
+    display: relative;
+    background-color: #000;
+    color: #dbbe63 ;    
+}
+
+
+.profile-badge__content {
+    text-align: center !important;
+}
+div.profile-badge.profile-badge--width-330.profile-badge--light{
+    text-align:center !important; 
+}
+
+/*profile-badge--width-330 profile-badge--light
+
+.profile-badge {
+    text-align:center;
+    margin: auto;
+}
+
+*/
+
+.container-footer {
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.social-card {
+  background: white;
+  color: black;
+
+  height: 350px;
+  width: 330px;
+  display: block;
+
+  margin: auto;
+}
+
+.social-card-header {
+  height: 15%;
+  background: #ddd;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.7em;
+  color: #0E76A8;
+  padding-top: 6px;
+}
+
+
+.social-card-body {
+
+  height: 85%;
+  background: white;
+  text-align: center;
+}
+
+.social-card-body h1 {
+    
+    font-size:1.2em;
+}
+
+/*
+.hero {
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+  background: #f1f9ff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.social-links {
+  text-align: center;
+}
+
+.social-links a {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  text-decoration: none;
+  color: #AE8625;
+
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+  margin: 0 30px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.5s;
+}
+
+.social-links a .fab {
+  font-size: 30px;
+  line-height: 80px;
+  position: relative;
+  z-index: 10;
+  transition: color 0.5s;
+}
+
+
+
+.social-links a:hover::after {
+  top: 0;
+}
+
+.social-links a:hover .fab {
+  color: #fff;
+}
+
+.social-links a:hover {
+  transform: translateY(-10px);
+}
+*/
+
+
+#nonbadgedicon {
+  padding-top: 10px;
+
+  vertical-align:middle;
+  width: 35px;
+  height:35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10px;
+}
+
+#nonbadgedicon:hover {
+    opacity: 0.7;
+    color:white;
+}
+
+#nonbadgedicon {
+  background: #AE8625;
+  color: white;
+}
+
+@media screen and  (max-width: 575px) {
+    #footer {
+        height: 720px;
+    }
+}
+
+
+
+@media screen and  (max-width: 1000px) {
+    .container-footer {
+    font-size:0.8em;
+}
+
+}
+

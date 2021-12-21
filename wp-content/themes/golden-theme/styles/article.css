@@ -1,0 +1,36 @@
+/* Scroll down for CSS Grid rules */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+.article_image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.article_image_container {
+  margin: auto;
+
+  width: 50vw;
+
+}
+
+
+
+
+.golden_part{
+  color: #AE8625;
+}
+
+.content {
+  margin: 5px;
+  text-align: justify;
+  text-justify: inter-word;
+}
